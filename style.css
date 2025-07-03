@@ -403,6 +403,7 @@
 
 .main-4 {
   padding-left: 60px;
+  margin-bottom: 40px;
 }
 
 .main-4 .container .process {
@@ -447,16 +448,134 @@
   padding-left: 60px;
   gap: 30px;
   border-radius: 45px;
+  margin-bottom: 30px;
 }
 
-.main-4 .consultation .top{
+.main-4 .consultation .top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.main-4 .consultation .top-left{
+.main-4 .consultation .top-left {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-4 .consultation .top-left .img {
+  width: 65px;
+  height: 77px;
+  margin-right: 20px;
+  font-family: "Space Grotesk", serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.main-4 .consultation .top-left h3 {
+  font-family: "Space Grotesk", serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.line {
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.main-4 .consultation .desc {
+  width: 1114px;
+  height: 60px;
+  font-family: "Space Grotesk", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.main-4 .implen {
+  height: 159px;
+  border-radius: 45px;
+  padding-top: 41px;
+  padding-right: 60px;
+  padding-bottom: 41px;
+  padding-left: 60px;
+  gap: 10px;
+  background-color: #f3f3f3;
+  border: 1px solid #191a23;
+  box-shadow: 0px 5px 0px 0px #191a23;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.main-4 .implen .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.main-4 .implen .left img {
+  width: 75px;
+  height: 77px;
+  font-family: "Space Grotesk", serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 100%;
+}
+
+.main-4 .implen .left h3 {
+  font-family: "Space Grotesk", serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.main-4 .implen .right img {
+  color: #191a23;
+  width: 58px;
+  height: 58px;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: 1px solid #191a23;
+  border-radius: 50%;
+}
+
+.main-5 {
+  padding-left: 60px;
+  margin-bottom: 80px;
+}
+
+.main-5 .container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.main-5 .title {
+  background-color: #b9ff66;
+  width: 115px;
+  height: 51px;
+  border-radius: 7px;
+  padding: 7px;
+  gap: 10px;
+  font-family: "Space Grotesk", serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.main-5 .desc {
+  width: 473px;
+  height: 46px;
+  font-family: "Space Grotesk", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
 }
