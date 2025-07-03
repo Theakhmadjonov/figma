@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      background: #13131a;
+      color: white;
+      border-radius: 16px;
+      padding: 20px;
+      align-items: stretch;
+      gap: 16px;
+    }
+
+    .box {
+      flex: 1;
+      padding: 0 12px;
+    }
+
+    /* Vertikal chiziq (hr ni aylantirish) */
+    .v-line {
+      border: none;
+      width: 1px;
+      background-color: #333;
+      opacity: 0.6;
+      height: auto;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p>For a local restaurant...<br /><a href="#">Learn more →</a></p>
+      </div>
+
+      <hr class="v-line" />
+
+      <div class="box">
+        <p>For a B2B software company...<br /><a href="#">Learn more →</a></p>
+      </div>
+
+      <hr class="v-line" />
+
+      <div class="box">
+        <p>For a national retail chain...<br /><a href="#">Learn more →</a></p>
+      </div>
+    </div>
+  </body>
+</html>
